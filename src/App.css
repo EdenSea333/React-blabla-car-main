@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.backBubble1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  z-index: -100;
+}
+
+.backBubble2 {
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -100;
+}
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.MuiTimelineDot-root {
+  margin: 0 !important;
+  border-color: #2E2E2E !important;
+  background-color: #FFF !important;
+  border-width: 1px !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.MuiTimelineContent-root {
+  padding: 0px 16px !important;
+  transform: translateY(-4px) !important;
+}
+
+.MuiPaper-root {
+  box-shadow: none !important;
+  border-bottom: 1px solid #2E2E2E;
+}
+
+.comebackBtn:hover {
+  background-color: #EEE !important; 
+}
